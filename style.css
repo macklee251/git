@@ -1,6 +1,28 @@
+:root {
+    --margin-left: 10px;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 5px var(--margin-left);
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 5px var(--margin-left);
+}
+
+ul, ol {
+    margin: 5px 25px;
+}
+
+li {
+    margin: 5px var(--margin-left);
 }
